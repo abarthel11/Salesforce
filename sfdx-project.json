@@ -1,8 +1,12 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
+      "path": "src/lwc-state-management",
       "default": true
+    },
+    {
+      "path": "src/fflib",
+      "default": false
     }
   ],
   "name": "Salesforce",

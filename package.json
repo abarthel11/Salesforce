@@ -13,7 +13,10 @@
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --check \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prepare": "husky || true",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "scratch:create": "sf org create scratch --definition-file config/project-scratch-def.json --duration-days 7 --set-default --alias \"scratch-org\" && sf config set target-org=scratch-org",
+    "scratch:delete": "sf org delete scratch --target-org",
+    "lwc:generate": "sf lightning generate component  --type lwc --output-dir src/lwc-state-management/main/default/lwc --name"
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^3.1.0",
@@ -38,7 +41,7 @@
       "eslint"
     ],
     "**/lwc/**": [
-        "sfdx-lwc-jest -- --bail --findRelatedTests --passWithNoTests"
+      "sfdx-lwc-jest -- --bail --findRelatedTests --passWithNoTests"
     ]
   }
 }
