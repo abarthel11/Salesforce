@@ -5,3 +5,4 @@
 - [ ] sf project deploy preview
 - [ ] sf apex run
 - [ ] sf data query
+- [ ] sf project retrieve
