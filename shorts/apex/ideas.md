@@ -10,3 +10,5 @@
 - [ ] Why SeeAllData=true Is a Trap
 - [ ] When to use inherited sharing
 - [ ] VS Code debugging
+- [ ] DTOs
+- [ ] Blob.toPDF() vs visualforce

@@ -12,3 +12,5 @@
 - [ ] Using Nebula Logger
 - [ ] setting up fflib
 - [ ] how to move out of being a Junior fast (reading code and implementing anything and everything that comes to mind)
+- [ ] Setup JWT oauth external app
+- [ ] Postman setup

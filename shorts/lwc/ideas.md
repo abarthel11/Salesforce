@@ -9,3 +9,7 @@
 - [ ] The Security Risk of Over-Exposing Apex DTOs
 - [ ] Reusable pagination
 - [ ] The Most Common LWC Smell I See in Code Reviews
+- [ ] Get params out of a LWC url
+- [ ] form validation
+- [ ] error callback
+- [ ] Navigation mixin
