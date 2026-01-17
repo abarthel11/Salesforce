@@ -1,8 +1,12 @@
 {
   "packageDirectories": [
     {
-      "path": "src/lwc-state-management",
+      "path": "src/mixins",
       "default": true
+    },
+    {
+      "path": "src/lwc-state-management",
+      "default": false
     },
     {
       "path": "src/fflib",

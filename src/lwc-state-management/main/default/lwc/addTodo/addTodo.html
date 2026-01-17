@@ -1,0 +1,20 @@
+<template>
+  <div class="slds-grid slds-gutters slds-grid_vertical-align-center">
+    <div class="slds-col">
+      <lightning-input
+        type="text"
+        name="todoItem"
+        label="Todo Item"
+        placeholder="todo item..."
+        lwc:ref="todoItem"
+        variant="label-inline"
+      ></lightning-input>
+    </div>
+    <lightning-button
+      class="slds-col"
+      label="Add Todo"
+      variant="brand"
+      onclick={handleAddTodo}
+    ></lightning-button>
+  </div>
+</template>

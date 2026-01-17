@@ -1,0 +1,11 @@
+<template>
+  <c-add-todo></c-add-todo>
+  <br />
+  <template for:each={todoItems} for:item="item">
+    <div key={item.id}>
+      <p>{item.text}</p>
+    </div>
+  </template>
+  <hr />
+  <textarea rows="10" cols="40">{stateDump}</textarea>
+</template>
